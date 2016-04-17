@@ -15,6 +15,7 @@ import java.net.URL;
 
 /**
  * Created by Gary on 4/12/2016.
+ * Background process for fetching the JSON data and returning it as a JSONObject
  */
 public class FetchContent {
 

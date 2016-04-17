@@ -20,6 +20,7 @@ import java.util.List;
 
 /**
  * Created by Gary on 4/15/2016.
+ * List adapter for the main listview
  */
 public class ArticleListAdapter extends BaseAdapter {
     private Activity activity;
@@ -60,13 +61,6 @@ public class ArticleListAdapter extends BaseAdapter {
         TextView timestamp = (TextView) convertView.findViewById(R.id.timestamp);
         TextView title = (TextView) convertView.findViewById(R.id.title);
         ImageView articleImage = (ImageView) convertView.findViewById(R.id.articleImage);
-
-/*        // WHERE DOES THIS GO?!
-        convertView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-            }
-        });*/
 
         ArticleItem item = articles.get(position);
 
